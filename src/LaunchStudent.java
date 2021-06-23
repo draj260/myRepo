@@ -20,6 +20,7 @@ public class LaunchStudent {
 			Student s1= (Student) ois.readObject();
 			System.out.println("Student object deserialized");
 			System.out.println(s1);
+			System.out.println("My first commit");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
